@@ -30,12 +30,6 @@ from src.detector import DrowsinessDetector
 ALARM_PATH = os.path.join("assets", "alarm.wav")
 generate_alarm_wav(ALARM_PATH)
 
-# Required for the browser's camera stream to reach the server once this
-# app is deployed (works without this on localhost, but not once hosted).
-# If your deployment platform sits behind a strict firewall/proxy and the
-# video feed gets stuck on "Connecting...", a STUN-only config isn't
-# enough — you'll need a TURN server (e.g. a free Twilio trial, see
-# README.md) plugged into RTC_CONFIGURATION below.
 RTC_CONFIGURATION = {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
 
 st.set_page_config(page_title="Driver Drowsiness Detection", page_icon="🚗", layout="wide")
