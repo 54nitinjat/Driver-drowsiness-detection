@@ -1,0 +1,8 @@
+# Desktop app (main.py) — run with: pip install -r requirements.txt
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+numpy>=1.23,<2.0
+pytest>=7.4
+
+# Note: audio alerts use your OS's built-in player (winsound on Windows,
+# afplay on macOS, aplay/paplay on Linux) — no extra audio package needed.

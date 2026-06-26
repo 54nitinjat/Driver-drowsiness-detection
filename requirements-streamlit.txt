@@ -1,0 +1,8 @@
+# Web app (app.py) for cloud deployment — run with:
+#   pip install -r requirements-streamlit.txt
+opencv-python-headless==4.10.0.84
+mediapipe==0.10.14
+numpy>=1.23,<2.0
+streamlit>=1.32
+streamlit-webrtc>=0.47
+av>=10.0.0
