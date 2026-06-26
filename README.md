@@ -189,4 +189,4 @@ so they run instantly anywhere, including CI.
 
 ## License
 
-MIT — see `LICENSE`. Use it, modify it, ship it.
+MIT — see `LICENSE`. 
